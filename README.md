@@ -1,6 +1,6 @@
 # Awesome-Warehouse-Control-System
 
-### Top Warehouse Control System (WCS) Ecosystem
+#### Top Warehouse Control System (WCS) Ecosystem
 
 **Curated List of Commercial / SaaS Platforms & Open-Source GitHub Projects**
 *Focused on Warehouse Control, Material Flow Control, Warehouse Execution, Automation Orchestration & Intralogistics*
