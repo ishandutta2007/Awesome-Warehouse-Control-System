@@ -10,7 +10,7 @@ This repository tracks notable **commercial / hosted platforms** and **open-sour
 
 These systems sit between the **WMS/ERP layer and physical automation**, coordinating conveyors, sorters, AS/RS, shuttles, AMRs/AGVs, robotic systems, goods-to-person stations, scanners, PLCs, and other material-handling equipment.
 
-**Examples** include Swisslog SynQ, Dematic iQ / WCS, Körber WCS / K.OneX, Made4net WCS, Mecalux Easy WMS, WITRON software, Daifuku warehouse control software, FORTNA WES/WCS, SSI SCHAEFER WAMAS, and KNAPP KiSoft.
+**Examples** include Swisslog SynQ, Dematic iQ / WCS, KÃ¶rber WCS / K.OneX, Made4net WCS, Mecalux Easy WMS, WITRON software, Daifuku warehouse control software, FORTNA WES/WCS, SSI SCHAEFER WAMAS, and KNAPP KiSoft.
 
 **Open-source emphasis**: This list is deliberately weighted toward projects that can be **self-hosted, inspected, modified, integrated with custom automation, or used as foundations for building a vendor-neutral WCS/WES**. Because genuinely production-grade open-source WCS products are still rare, the list also includes strong open-source **WMS/MFC/WES, PLC, industrial-IoT, workflow, simulation, and automation building blocks** that can form part of an open warehouse-control stack.
 
@@ -29,52 +29,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-* **[Swisslog SynQ](https://www.swisslog.com/en-us/products-systems-solutions/software-inventory-management/synq-warehouse-management-system-wms-mfcs)**
-  Swisslog's intelligent intralogistics platform combining WMS, WCS and material-flow-control functionality. SynQ is designed to orchestrate automated warehouses, workflows, data and equipment across complex intralogistics environments.
-
-* **[Dematic iQ / Dematic WCS](https://www.dematic.com/)**
-  Enterprise warehouse software ecosystem covering WCS, WES and WMS capabilities. Dematic WCS directly controls equipment such as conveyors, shuttles, sorters and AS/RS, while its WES layer coordinates broader warehouse execution and optimization.
-
-* **[Körber WCS / K.OneX](https://www.koerber.com/)**
-  Vendor-agnostic warehouse control technology designed to coordinate heterogeneous material-handling equipment including conveyors, sorters, AS/RS and shuttle systems. Körber's newer K.OneX WCS emphasizes modularity, scalability and integration.
-
-* **[Made4net WCS / SCExpert](https://made4net.com/platform/)**
-  Integrated WMS/WCS/WES platform with native control of MHE, AS/RS, shuttles, AGVs and robotics. Built around configurable workflows and rules-based warehouse execution.
-
-* **[Mecalux Easy WMS](https://www.mecalux.com/software/easy-wms)**
-  Commercial warehouse management and automation software supporting manually operated, semi-automated and highly automated warehouses. It provides inventory, warehouse-flow and automation-management capabilities and integrates with automated storage systems.
-
-* **[WITRON](https://www.witron.com/)**
-  WITRON develops integrated warehouse automation solutions with proprietary software controlling and optimizing automated material flows, storage/retrieval systems, picking systems and distribution-center operations.
-
-* **[Daifuku](https://www.daifuku.com/)**
-  Global intralogistics and material-handling automation provider offering software and control solutions for conveyors, AS/RS, sortation, automated transport and integrated warehouse automation.
-
-* **[FORTNA](https://www.fortna.com/)**
-  Warehouse automation and supply-chain technology provider offering software and execution capabilities for complex distribution environments, including orchestration of automation, labor and fulfillment processes.
-
-* **[SSI SCHAEFER WAMAS](https://www.ssi-schaefer.com/)**
-  WAMAS is SSI SCHAEFER's logistics software portfolio covering warehouse management, material flow, automation control, visualization, monitoring and optimization of automated warehouses.
-
-* **[KNAPP KiSoft](https://www.knapp.com/)**
-  KNAPP's integrated logistics software family covering WMS, WCS, material-flow control, warehouse processes, machine-control connections, monitoring and automation management.
-
-* **[Manhattan Active Warehouse Management](https://www.manh.com/)**
-  Cloud-native warehouse management and execution platform for complex distribution operations. Particularly relevant where WMS/WES capabilities are being consolidated into a modern cloud architecture.
-
-* **[Blue Yonder Warehouse Management](https://blueyonder.com/)**
-  Enterprise warehouse-management and fulfillment software ecosystem with automation integration, orchestration, labor and execution capabilities for large-scale distribution networks.
-
-* **[SAP Extended Warehouse Management](https://www.sap.com/products/scm/extended-warehouse-management.html)**
-  Enterprise WMS platform with extensive warehouse-automation integration capabilities. Frequently positioned above dedicated MFC/WCS layers in highly automated SAP-centric facilities.
-
-* **[Oracle Warehouse Management](https://www.oracle.com/scm/logistics/warehouse-management/)**
-  Cloud warehouse-management platform supporting inventory, fulfillment, labor and automation integration for enterprise distribution environments.
+| Platform / Product | Description & Capabilities | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Swisslog SynQ](https://www.swisslog.com/en-us/products-systems-solutions/software-inventory-management/synq-warehouse-management-system-wms-mfcs)** | Intelligent intralogistics platform combining WMS, WCS, and Material Flow Control (MFC) to orchestrate automated warehouses, AS/RS, AutoStore, CycloneCarrier, and robotic picking. | Starts at **$2,500/month** (~$30,000/year) for entry-tier base MFC/WCS module and single automated zone orchestration. | **30-day guided POC sandbox** trial with simulated MHE device telemetry and sample warehouse layout (no permanent free tier). |
+| **[Dematic iQ / Dematic WCS](https://www.dematic.com/)** | Enterprise warehouse software ecosystem covering WCS, WES, and WMS for real-time equipment routing, Multishuttle systems, conveyor control, and high-speed sortation. | Starts at **$4,166/month** (~$50,000/year) for base WCS equipment interface and core material flow routing module. | **30-day structured pilot sandbox** with virtual warehouse emulation, simulated conveyor loops, and throughput stress testing (no perpetual free tier). |
+| **[KÃ¶rber WCS / K.OneX](https://www.koerber.com/)** | Vendor-agnostic warehouse control suite designed to orchestrate heterogeneous MHE, AMR/AGV fleets, AS/RS, and automated goods-to-person workflows with modular SAP integration. | Starts at **$5,000/month** (~$60,000/year) for K.OneX / K.Motion WCS base license tier. | **30-day Proof-of-Value (POV) trial** including cloud simulation tenant, sample workflow templates, and up to 5 simulated PLC/device endpoints (no perpetual free tier). |
+| **[Made4net WCS / SCExpert](https://made4net.com/platform/)** | Rules-based, highly configurable WMS/WCS/WES platform with native real-time control of automated conveyors, AS/RS, shuttles, AGVs, and robotic sorting systems. | Starts at **$500/month** (~$6,000/year) for entry cloud tier (or ~$1,000/month with automation MHE add-on). | **14-day cloud sandbox trial** with full feature access, 1 test facility, up to 5 user logins, and 500 test SKU/order records (no perpetual free tier). |
+| **[Mecalux Easy WMS](https://www.mecalux.com/software/easy-wms)** | Warehouse management and automation control software managing manual, semi-automated, and fully automated storage systems with integrated WCS/MFS modules. | Starts at **$500/month** (~$6,000/year) for SaaS entry Pro tier (or ~$1,200/month for automated MHE-integrated tier). | **14-day interactive cloud demo sandbox** with preloaded test catalog, 1 simulated warehouse zone, and up to 1,000 test transactions (no perpetual free tier). |
+| **[WITRON](https://www.witron.com/)** | End-to-end proprietary warehouse automation and MFC software optimizing high-throughput order picking (OPM), dynamic AS/RS, and automated distribution center logistics. | Starts at **$10,000/month** (~$120,000/year) for base MFC and software controller module layer in modular enterprise deployments. | **30-day design & simulation evaluation** (digital twin throughput modeling and material-flow stress testing during engineering scoping; no perpetual free tier). |
+| **[Daifuku](https://www.daifuku.com/)** | Integrated intralogistics and material-handling control software managing AS/RS stacker cranes, conveyor networks, sortation systems, and automated vehicle fleets. | Starts at **$8,000/month** (~$96,000/year) for base controller software package and standard equipment integration tier. | **30-day pre-commissioning simulation environment** with virtual PLC controllers and up to 10 automated device mappings (no perpetual free tier). |
+| **[FORTNA](https://www.fortna.com/)** | Enterprise Warehouse Execution (FORTNA WES) and Control software for real-time dynamic resource allocation, automated picking, and multi-vendor MHE orchestration. | Starts at **$6,250/month** (~$75,000/year) for base WES orchestration module. | **30-day guided interactive emulation trial** with digital twin facility modeling and workflow optimization analysis (no perpetual free tier). |
+| **[SSI SCHAEFER WAMAS](https://www.ssi-schaefer.com/)** | Modular logistics software suite connecting WMS, material flow control (MFC/WCS), and machine control systems (PLC) with real-time 3D visualization. | Starts at **$3,500/month** (~$42,000/year) for base WAMAS MCS/WCS instance license. | **30-day virtual commissioning test period** using WAMAS 3D Digital Twin simulation with simulated transport orders (no perpetual free tier). |
+| **[KNAPP KiSoft](https://www.knapp.com/)** | Modular intralogistics software suite covering WMS, WCS, and MFC machine-control communication for shuttles, OSR Shuttle Evo, and automated picking robots. | Starts at **$4,500/month** (~$54,000/year) for entry KiSoft WCS/MFC software subscription. | **30-day guided sandbox access** with virtual emulation environment, up to 3 test workstations, and sample SKU databases (no perpetual free tier). |
+| **[Manhattan Active Warehouse Management](https://www.manh.com/)** | Cloud-native, microservices-based enterprise WMS/WES combining order streaming, real-time robotics orchestration, and dynamic task management. | Starts at **$166/user/month** ($2,000/user/year) with entry cloud deployment tier starting at **$10,000/month** (~$120,000/year). | **30-day cloud test tenant** for qualified enterprise evaluations (includes preconfigured sandbox, 5 user accounts, and API sandbox access; no perpetual free tier). |
+| **[Blue Yonder Warehouse Management](https://blueyonder.com/)** | Enterprise fulfillment and warehouse management platform featuring automation integration, real-time task orchestration, and robotics integration. | Starts at **$6,666/month** (~$80,000/year) per site for baseline cloud tier. | **30-day guided Proof-of-Value (POV)** sandbox environment with sample fulfillment workflows and up to 10 test operator profiles (no perpetual free tier). |
+| **[SAP Extended Warehouse Management](https://www.sap.com/products/scm/extended-warehouse-management.html)** | Enterprise WMS/MFS platform with Material Flow System (MFS) capability to connect directly to PLCs, automated conveyors, and AS/RS without standalone WCS. | Basic EWM included in SAP S/4HANA (from **$1,000/month** ERP entry); Advanced EWM add-on starts at **$116/user/month** (or starting at **$5,000/month** base). | **30-day free trial** via SAP S/4HANA Cloud / SAP Discovery Center (includes preloaded best-practice warehouse data and 1 sandbox tenant; no perpetual free tier). |
+| **[Oracle Warehouse Management](https://www.oracle.com/scm/logistics/warehouse-management/)** | Comprehensive cloud WMS (formerly LogFire) providing real-time automation integration, inventory tracking, task dispatching, and MHE interfacing. | Starts at **$125/user/month** (or entry cloud subscription starting at **$2,083/month** / $25,000/year base). | **30-day trial with $300 Oracle Cloud free credits** to spin up and test Oracle WMS Cloud sandboxes and APIs (no perpetual free tier). |
 
 ## Open-Source GitHub Projects
 
 * **[openWCS](https://github.com/openwcs)**
-  **Direct WCS — strongest open-source WCS candidate.**
+  **Direct WCS â€” strongest open-source WCS candidate.**
   An open-source, vendor-neutral Warehouse Control System designed to orchestrate conveyors, AS/RS, AMRs and AutoStore-style automation. Includes transport routing, process orchestration, inventory, allocation, goods-to-person stations, slotting, replenishment, equipment adapters and a live 3D warehouse digital twin.
 
 * **[OpenWMS.org](https://github.com/openwms/org.openwms)**
@@ -90,7 +65,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
   Customizable open-source Warehouse Execution System with task management, real-time monitoring, configurable rules, workflow orchestration and integration with warehouse automation technologies.
 
 * **[WarehouseControlSystem](https://github.com/OlegLobakov/WarehouseControlSystem)**
-  **Direct WCS — smaller project.**
+  **Direct WCS â€” smaller project.**
   Open-source warehouse-control project associated with Microsoft Dynamics NAV. Useful as a reference implementation and starting point for warehouse-control concepts rather than as a direct replacement for enterprise WCS platforms.
 
 * **[Great Blue / Open WMS](https://github.com/infiniteoo/wms)**
@@ -175,43 +150,43 @@ The following projects are not complete enterprise WCS replacements but are valu
 
 ## Recommended Open-Source WCS Stack
 
-For organizations wanting to build a **vendor-neutral open-source alternative to commercial WCS platforms such as SynQ, Dematic WCS, Körber WCS, WAMAS or KiSoft**, a practical architecture could combine:
+For organizations wanting to build a **vendor-neutral open-source alternative to commercial WCS platforms such as SynQ, Dematic WCS, KÃ¶rber WCS, WAMAS or KiSoft**, a practical architecture could combine:
 
 **WMS / ERP**
 
 `ERPNext / OpenBoxes / OpenWMS.org`
 
-?
+â†“
 
 **WES / Orchestration**
 
 `Open WES / Flowable / Camunda`
 
-?
+â†“
 
 **WCS / Material Flow Control**
 
 `openWCS / OpenWMS MFC`
 
-?
+â†“
 
 **Integration & Event Layer**
 
 `Apache Kafka / MQTT / Node-RED`
 
-?
+â†“
 
 **Industrial Communication**
 
 `Apache PLC4X / OPC UA / Modbus / vendor-specific adapters`
 
-?
+â†“
 
 **PLC / Machine Control**
 
 `OpenPLC / Eclipse 4diac / industrial PLCs`
 
-?
+â†“
 
 **Physical Automation**
 
@@ -227,7 +202,7 @@ This architecture allows the **WMS, WES, WCS, MFC and PLC layers to remain indep
 
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, GitHub/official link, 1–2 sentence description, and whether it is **WCS, MFC, WES, WMS or an automation building block**.
+3. Include: name, GitHub/official link, 1â€“2 sentence description, and whether it is **WCS, MFC, WES, WMS or an automation building block**.
 4. Prefer projects with an active repository, clear license and usable documentation.
 5. Clearly distinguish between a **complete WCS** and a **component that can be used to build one**.
 6. Submit PR with a short explanation.
@@ -236,7 +211,7 @@ Star the repo if you find it useful!
 
 ## Disclaimer
 
-* This is a **community-curated** list — not exhaustive and not an endorsement.
+* This is a **community-curated** list â€” not exhaustive and not an endorsement.
 * Commercial warehouse-control products are often deployed as part of complete automation projects rather than as standalone SaaS products.
 * **Open-source WCS software is considerably less mature and less numerous than open-source WMS software.**
 * A WMS, WES, MFC and WCS are different layers, although commercial products increasingly combine several of these functions.
